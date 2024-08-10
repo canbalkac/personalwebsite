@@ -14,8 +14,8 @@ const Footer = () => {
             <div className="text-6xl font-bold font-sans">C</div>
             <div className="flex flex-row gap-3">
                     {
-                        icons.map((icon:any) => (
-                            <div className="bg-light-mode-bg dark:bg-[#464646] rounded-full p-3 text-white">{icon.icon}</div>
+                        icons.map((icon:any, i:number) => (
+                            <div key={i} className="bg-light-mode-bg dark:bg-[#464646] rounded-full p-3 text-white">{icon.icon}</div>
                         ))
                     }
             </div>

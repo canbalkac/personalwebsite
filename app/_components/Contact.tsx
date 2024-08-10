@@ -62,8 +62,8 @@ const Contact = () => {
             <div className="flex flex-col md:flex-row justify-center items-center gap-20">
                 <div className="space-y-5">
                     {
-                        Contacts.map((contact: any)=> (
-                        <div className="bg-light-mode-card dark:bg-[#222222] py-5 px-10 rounded-lg">
+                        Contacts.map((contact: any, i:number)=> (
+                        <div key={i} className="bg-light-mode-card dark:bg-[#222222] py-5 px-10 rounded-lg">
                             <div className="flex justify-between items-center space-x-10">
                                 <div className="flex flex-col justify-center items-center space-y-3">
                                     <div className="bg-light-mode-bg dark:bg-white rounded-full flex justify-center items-center p-3">
