@@ -19,8 +19,8 @@ const AboutMe = () => {
         Full Stack Web Developer
         </p>
         <p className="text-[#e6ded3] dark:text-[#afafaf] text-sm leading-7 max-width-[%75]">
-          Welcome to my website, I am Can Balkaç and I'm senior student at Near East University of Software Engineer department.
-          I am not currently working for a company, so I am open to any kind of job offer. My main interest is Web Development bu i'm willing to learn new platforms and technologies.
+          Welcome to my website, I am Can Balkaç and I$apos;m senior student at Near East University of Software Engineer department.
+          I am not currently working for a company, so I am open to any kind of job offer. My main interest is Web Development bu i$apos;m willing to learn new platforms and technologies.
           Trying to push myself forward as much as possible and keep working on personal projects. I will try to represent myself and demonstrate my personal works.
         </p>
         <div className="flex mt-10 gap-2">
