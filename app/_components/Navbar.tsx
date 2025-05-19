@@ -45,7 +45,7 @@ const Navbar = () => {
         <div className="mt-auto">
           <div className="mb-10 font-bold text-6xl">C</div>
           {sections.map((section) => (
-            <div className="mb-10" key={section.id}>
+            <div className="mb-10 cursor-pointer" key={section.id}>
               <ScrollLink
                 activeClass="active"
                 to={section.id}

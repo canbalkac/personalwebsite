@@ -82,13 +82,13 @@ const Contact = () => {
 						</div>
 					))}
 				</div>
-				<div className="bg-light-mode-card dark:bg-[#222222] p-14 rounded-lg">
+				<div className="bg-light-mode-card text-black dark:text-white dark:bg-[#222222] p-14 rounded-lg">
 					<Form {...form}>
 						<form onSubmit={form.handleSubmit(onSubmit)} className="space-y-8">
 							<div className="flex flex-col lg:flex-row justify-between gap-3">
 								<FormField
 									control={form.control}
-									name="username"
+									name="firstname"
 									render={({ field }) => (
 										<FormItem>
 											<FormLabel>Firstname</FormLabel>
@@ -101,7 +101,7 @@ const Contact = () => {
 								/>
 								<FormField
 									control={form.control}
-									name="username"
+									name="lastname"
 									render={({ field }) => (
 										<FormItem>
 											<FormLabel>Lastname</FormLabel>
@@ -116,7 +116,7 @@ const Contact = () => {
 							<div className="flex flex-col lg:flex-row justify-between gap-3">
 								<FormField
 									control={form.control}
-									name="username"
+									name="email"
 									render={({ field }) => (
 										<FormItem>
 											<FormLabel>Email</FormLabel>
@@ -129,7 +129,7 @@ const Contact = () => {
 								/>
 								<FormField
 									control={form.control}
-									name="username"
+									name="subject"
 									render={({ field }) => (
 										<FormItem>
 											<FormLabel>Subject</FormLabel>
